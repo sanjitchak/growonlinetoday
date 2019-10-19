@@ -9,8 +9,8 @@ description: "Helping anyone grow online"
 
 # Team names, titles and social links
 people:
-- name: Sanjit
-  pic: 1
+- name: Sanjit Chakrabarti
+  pic: Sanjit
   position: Founder
   social:
     - title: twitter
