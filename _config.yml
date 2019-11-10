@@ -13,16 +13,16 @@ people:
     position: Founder
     social:
       - title: facebook
-        url: www.facebook.com/sujitsanjit
-      - title: linkdin
-        url: www.linkedin.com/in/sanjit-chakrabarti-pro/
+        url: https://facebook.com/sujitsanjit
+      - title: linkdin-in
+        url: https://linkedin.com/in/sanjit-chakrabarti-pro/
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: facebook
-    url: www.facebook.com/growonlinetoday
-  - title: linkdin
-    url: www.linkedin.com/in/sanjit-chakrabarti-pro/
+    url: https://facebook.com/growonlinetoday
+  - title: linkdin-in
+    url: https://linkedin.com/in/sanjit-chakrabarti-pro/
 
 # Postal address (add as many lines as necessary)
 address:
