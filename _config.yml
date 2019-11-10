@@ -6,33 +6,23 @@ title: Grow Online Today
 email: sanjit@growonlinetoday.com
 description: "Helping anyone grow online"
 
-
 # Team names, titles and social links
 people:
-- name: Sanjit Chakrabarti
-  pic: Sanjit
-  position: Founder
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
+  - name: Sanjit Chakrabarti
+    pic: Sanjit
+    position: Founder
+    social:
+      - title: facebook
+        url: www.facebook.com/sujitsanjit
+      - title: linkdin
+        url: www.linkedin.com/in/sanjit-chakrabarti-pro/
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+        url: www.facebook.com/growonlinetoday
+  - title: linkdin
+        url: www.linkedin.com/in/sanjit-chakrabarti-pro/
 
 # Postal address (add as many lines as necessary)
 address:
