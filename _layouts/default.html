@@ -3,6 +3,36 @@
   {% include head.html %}
 
   <body id="page-top" class="index">
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml: true,
+          version: "v5.0"
+        });
+      };
+
+      (function(d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
+
+    <!-- Your customer chat code -->
+    <div
+      class="fb-customerchat"
+      attribution="setup_tool"
+      page_id="113979090039423"
+      theme_color="#d0d04a"
+      logged_in_greeting="Hi! Send us any question you may have. Or maybe best way to contact you."
+      logged_out_greeting="Hi! Send us any question you may have. Or maybe best way to contact you."
+    ></div>
     {% include header.html %} {% include services.html %}
     <!-- {% include portfolio_grid.html %} -->
     {% include how_it_works.html %}
